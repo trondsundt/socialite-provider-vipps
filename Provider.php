@@ -18,7 +18,7 @@ class Provider extends AbstractProvider
      */
     protected $scopes = [
         'openid',
-        'api_version_2',
+      #  'api_version_2',   // VIPPS LIKTE IKKJE DENNE
         'phoneNumber',
     ];
 
