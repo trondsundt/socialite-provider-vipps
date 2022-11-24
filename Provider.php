@@ -17,10 +17,14 @@ class Provider extends AbstractProvider
      * {@inheritdoc}
      */
     protected $scopes = [
-        'openid',
-      #  'api_version_2',   // VIPPS LIKTE IKKJE DENNE
-        'phoneNumber',
-    ];
+        #  'openid',
+        #  'api_version_2',   // VIPPS LIKTE IKKJE DENNE
+          'phoneNumber',
+          'address',
+          'birthDate',
+          'email',
+          'name',
+      ];
 
     /**
      * {@inheritdoc}
